@@ -1,0 +1,17 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF10_AuthToken.feature" skipped="0" tests="1" time="4.949811">
+  <testcase classname="src.test.java.examples.users.FF10_AuthToken" name="Get Auth token and make a post call" time="4.949811">
+    <system-out>* url 'https://reqres.in/api/' ............................................ passed
+* def AuthParam = ......................................................... passed
+Given path 'register' ..................................................... passed
+And form fields AuthParam ................................................. passed
+Then method POST .......................................................... passed
+Then status 200 ........................................................... passed
+Then print 'Auth API response : ' , response .............................. passed
+* def AuthToken = response.token .......................................... passed
+Given path 'users/4' ...................................................... passed
+And header Autherization = 'Bearer ' + AuthToken .......................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print 'Login API response : ' , response ............................. passed</system-out>
+  </testcase>
+</testsuite>

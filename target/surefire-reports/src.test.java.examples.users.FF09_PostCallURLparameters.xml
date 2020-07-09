@@ -1,0 +1,13 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF09_PostCallURLparameters.feature" skipped="0" tests="1" time="7.130995">
+  <testcase classname="src.test.java.examples.users.FF09_PostCallURLparameters" name="Using parameters in a post call" time="7.130995">
+    <system-out>* def JsonPayLoad = read('FF08_PayLoad.json') ............................. passed
+* url 'https://reqres.in/api/' ............................................ passed
+* headers {Content-Type = 'application/json' , Accept: 'applicaiton/json'} . passed
+Given path 'users' ........................................................ passed
+And request JsonPayLoad ................................................... passed
+And param delay = 3 ....................................................... passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+Then print 'Response is', response ........................................ passed</system-out>
+  </testcase>
+</testsuite>

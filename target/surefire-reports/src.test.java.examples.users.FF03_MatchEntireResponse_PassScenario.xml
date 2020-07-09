@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF03_MatchEntireResponse_PassScenario.feature" skipped="0" tests="1" time="3.81158">
+  <testcase classname="src.test.java.examples.users.FF03_MatchEntireResponse_PassScenario" name="Place a Get request and verify response and match entire response pass scenario" time="3.81158">
+    <system-out>* def expectedoutput = read('result.json') ................................ passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedoutput ...................................... passed</system-out>
+  </testcase>
+</testsuite>

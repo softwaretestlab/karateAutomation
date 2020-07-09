@@ -1,0 +1,44 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF11_DataDrivenTesting.feature" skipped="0" tests="3" time="4.745456">
+  <testcase classname="src.test.java.examples.users.FF11_DataDrivenTesting" name="Creating users" time="3.07033">
+    <system-out>* url 'http://dummy.restapiexample.com/' .................................. passed
+Given path 'api/v1/create' ................................................ passed
+And request {"name":test,"salary":100,"age":10} ........................... passed
+Then method POST .......................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response is' , response ....................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.users.FF11_DataDrivenTesting" name="Creating users" time="0.893324">
+    <system-out>* url 'http://dummy.restapiexample.com/' .................................. passed
+Given path 'api/v1/create' ................................................ passed
+And request {"name":test,"salary":100,"age":10} ........................... passed
+Then method POST .......................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response is' , response ....................................... passed
+* url 'http://dummy.restapiexample.com/' .................................. passed
+Given path 'api/v1/create' ................................................ passed
+And request {"name":tester,"salary":200,"age":20} ......................... passed
+Then method POST .......................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response is' , response ....................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.users.FF11_DataDrivenTesting" name="Creating users" time="0.781802">
+    <system-out>* url 'http://dummy.restapiexample.com/' .................................. passed
+Given path 'api/v1/create' ................................................ passed
+And request {"name":test,"salary":100,"age":10} ........................... passed
+Then method POST .......................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response is' , response ....................................... passed
+* url 'http://dummy.restapiexample.com/' .................................. passed
+Given path 'api/v1/create' ................................................ passed
+And request {"name":tester,"salary":200,"age":20} ......................... passed
+Then method POST .......................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response is' , response ....................................... passed
+* url 'http://dummy.restapiexample.com/' .................................. passed
+Given path 'api/v1/create' ................................................ passed
+And request {"name":testing,"salary":300,"age":30} ........................ passed
+Then method POST .......................................................... passed
+Then status 200 ........................................................... passed
+Then print 'response is' , response ....................................... passed</system-out>
+  </testcase>
+</testsuite>

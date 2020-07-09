@@ -1,0 +1,9 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF02_GetCall_MatchKeyValue.feature" skipped="0" tests="1" time="3.093075">
+  <testcase classname="src.test.java.examples.users.FF02_GetCall_MatchKeyValue" name="Place a Get request and verify response and match key value" time="3.093075">
+    <system-out>Given url 'https://postman-echo.com/get' .................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response.url == 'https://postman-echo.com/get' .................. passed</system-out>
+  </testcase>
+</testsuite>

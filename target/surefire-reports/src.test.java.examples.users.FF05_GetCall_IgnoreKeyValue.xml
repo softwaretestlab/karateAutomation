@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF05_GetCall_IgnoreKeyValue.feature" skipped="0" tests="1" time="3.386851">
+  <testcase classname="src.test.java.examples.users.FF05_GetCall_IgnoreKeyValue" name="Place a Get request and verify response and ignore validation of one keyvalue pair" time="3.386851">
+    <system-out>* def expectedoutput = read('result2.json') ............................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedoutput ...................................... passed</system-out>
+  </testcase>
+</testsuite>

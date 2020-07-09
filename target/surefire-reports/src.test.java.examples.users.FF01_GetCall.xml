@@ -1,0 +1,8 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF01_GetCall.feature" skipped="0" tests="1" time="3.681341">
+  <testcase classname="src.test.java.examples.users.FF01_GetCall" name="Place a Get request and verify response" time="3.681341">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

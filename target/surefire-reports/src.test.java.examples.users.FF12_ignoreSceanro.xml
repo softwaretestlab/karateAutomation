@@ -1,0 +1,18 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF12_ignoreSceanro.feature" skipped="0" tests="2" time="3.306456">
+  <testcase classname="src.test.java.examples.users.FF12_ignoreSceanro" name="testone Place a Get request and verify response" time="2.551291">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.users.FF12_ignoreSceanro" name="testtwo Place a Get request and verify response" time="0.755165">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed</system-out>
+  </testcase>
+</testsuite>

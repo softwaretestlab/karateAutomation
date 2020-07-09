@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF06_GetCall_ConfirmKeyPresence.feature" skipped="0" tests="1" time="3.193807">
+  <testcase classname="src.test.java.examples.users.FF06_GetCall_ConfirmKeyPresence" name="Place a Get request and verify response and ignore validation of one keyvalue pair" time="3.193807">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response.data.last_name != null ................................. passed
+* def TestVar = response.data.jagan ....................................... passed
+And match TestVar == null ................................................. passed</system-out>
+  </testcase>
+</testsuite>

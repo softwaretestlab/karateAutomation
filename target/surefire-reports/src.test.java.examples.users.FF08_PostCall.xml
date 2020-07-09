@@ -1,0 +1,12 @@
+<testsuite failures="0" name="src/test/java/examples/users/FF08_PostCall.feature" skipped="0" tests="1" time="3.997401">
+  <testcase classname="src.test.java.examples.users.FF08_PostCall" name="Making a post call" time="3.997401">
+    <system-out>* def JsonPayLoad = read('FF08_PayLoad.json') ............................. passed
+* url 'https://reqres.in/api/' ............................................ passed
+Given path 'users' ........................................................ passed
+And request JsonPayLoad ................................................... passed
+And headers {Content-Type = 'application/json' , Accept: 'applicaiton/json'} . passed
+When method POST .......................................................... passed
+Then status 201 ........................................................... passed
+Then print 'Response is', response ........................................ passed</system-out>
+  </testcase>
+</testsuite>

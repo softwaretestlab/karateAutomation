@@ -1,0 +1,121 @@
+09:53:42.355 karate.env system property was:  
+09:53:43.863 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+09:53:45.054 response time in milliseconds: 1186.79
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 756
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 59edd097ed44d94a-HKG
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 05 Jun 2020 23:53:44 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc84b807b43125545c5da54a27b40a8371591401224; expires=Sun, 05-Jul-20 23:53:44 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 032880b2ef0000d94a3f95c200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+09:53:45.057 [print] {
+  "ad": {
+    "company": "StatusCode Weekly",
+    "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.",
+    "url": "http://statuscode.org/"
+  },
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  }
+}
+
+09:53:45.081 karate.env system property was:  
+09:53:45.083 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+09:53:45.822 response time in milliseconds: 738.17
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 757
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 59edd09cfcc7a2ac-HKG
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 05 Jun 2020 23:53:45 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d57a5cae33927d40b00cc6b488921f15f1591401225; expires=Sun, 05-Jul-20 23:53:45 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 032880b61a0000a2acfb3f5200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+09:53:45.823 [print] {
+  "ad": {
+    "company": "StatusCode Weekly",
+    "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.",
+    "url": "http://statuscode.org/"
+  },
+  "data": {
+    "last_name": "Weaver",
+    "id": 2,
+    "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg",
+    "first_name": "Janet",
+    "email": "janet.weaver@reqres.in"
+  }
+}
+
+:42:01.187 karate.env system property was:  
+09:42:01.190 request:
+1 > GET https://postman-echo.com/get
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: postman-echo.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_221)
+
+09:42:02.439 response time in milliseconds: 1248.03
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 290
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 05 Jun 2020 23:42:02 GMT
+1 < ETag: W/"122-s2tcGCZVaV2TpwnyL/7Z9nnXF34"
+1 < Vary: Accept-Encoding
+1 < set-cookie: sails.sid=s%3A6XWy94gKgzvDlyIBGtfc2bOz6kBxEMzD.XefwMsFX0kDXD%2FU8I8Qup7Z6Am%2BYDiQIRkh49H0lEHA; Path=/; HttpOnly
+{"args":{},"headers":{"x-forwarded-proto":"https","x-forwarded-port":"443","host":"postman-echo.com","x-amzn-trace-id":"Root=1-5edad84a-809409b46664f28e23d731c8","user-agent":"Apache-HttpClient/4.5.11 (Java/1.8.0_221)","accept-encoding":"gzip,deflate"},"url":"https://postman-echo.com/get"}
+
+09:42:02.440 [print] {
+  "args": {
+  },
+  "headers": {
+    "x-amzn-trace-id": "Root=1-5edad84a-809409b46664f28e23d731c8",
+    "x-forwarded-proto": "https",
+    "host": "postman-echo.com",
+    "x-forwarded-port": "443",
+    "accept-encoding": "gzip,deflate",
+    "user-agent": "Apache-HttpClient/4.5.11 (Java/1.8.0_221)"
+  },
+  "url": "https://postman-echo.com/get"
+}
+

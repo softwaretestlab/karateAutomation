@@ -1,0 +1,14 @@
+<testsuite failures="1" name="src/test/java/examples/users/FF04_MatchEntireResponse_FailScenario.feature" skipped="0" tests="1" time="3.523959">
+  <testcase classname="src.test.java.examples.users.FF04_MatchEntireResponse_FailScenario" name="Place a Get request and verify response and match entire response fail scenario" time="3.523959">
+    <failure message="FF04_MatchEntireResponse_FailScenario.feature:9 - path: $.headers['x-amzn-trace-id'], actual: 'Root=1-5ef450ef-094b59b695dc56ee17cfbc2e', expected: 'Root=1-5ec77aa2-404fdca8703aaa802ef4fb08', reason: not equal">* def expectedoutput = read('FF01_ExpectedResponse.json') ................. passed
+Given url 'https://postman-echo.com/get' .................................. passed
+Then method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Then print response ....................................................... passed
+And match response == expectedoutput ...................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: FF04_MatchEntireResponse_FailScenario.feature:9 - path: $.headers['x-amzn-trace-id'], actual: 'Root=1-5ef450ef-094b59b695dc56ee17cfbc2e', expected: 'Root=1-5ec77aa2-404fdca8703aaa802ef4fb08', reason: not equal&#13;
+	at ✽.And match response == expectedoutput (FF04_MatchEntireResponse_FailScenario.feature:9)</failure>
+  </testcase>
+</testsuite>
